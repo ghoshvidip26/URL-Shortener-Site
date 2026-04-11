@@ -66,4 +66,6 @@ app.get(
   },
 );
 
-app.listen(process.env.PORT || 5100);
+app.listen(3001, () => {
+  console.log("Server started on port 3001");
+});
